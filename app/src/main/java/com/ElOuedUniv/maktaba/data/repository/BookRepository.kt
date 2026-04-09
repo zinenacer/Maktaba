@@ -23,11 +23,16 @@ class BookRepository {
      * )
      */
     private val booksList = listOf(
-        Book(isbn = "", title = "Clean Code", nbPages = 0),
-        Book(isbn = "", title = "The Pragmatic Programmer", nbPages = 0),
-        Book(isbn = "", title = "Design Patterns", nbPages = 0),
-        Book(isbn = "", title = "Refactoring", nbPages = 0),
-        Book(isbn = "", title = "Head First Design Patterns", nbPages = 0)
+        Book(isbn = "9780135398524", title = "Clean Code", nbPages = 464  ),
+        Book(isbn = "9780132119177", title = "The Pragmatic Programmer", nbPages = 352 ),
+        Book(isbn = "9780201485370", title = "Design Patterns", nbPages = 416 ),
+        Book(isbn = "9780133065268", title = "Refactoring", nbPages = 448 ),
+        Book(isbn = "9780596007126", title = "Head First Design Patterns", nbPages = 638),
+        Book(isbn = "9780132350884", title = "Clean Architecture", nbPages = 432 ),
+        Book(isbn = "9780134494166", title = "The Clean Coder", nbPages = 256 ),
+        Book(isbn = "9780134757599", title = "Working Effectively with Legacy Code", nbPages = 400 ),
+        Book(isbn = "9780321127426", title = "Patterns of Enterprise Application Architecture", nbPages = 560 ),
+        Book(isbn = "9780137081073", title = "The Art of Unit Testing", nbPages = 320 )c
     )
 
     /**
