@@ -25,6 +25,9 @@ class MainActivity : ComponentActivity() {
         val getBooksUseCase = GetBooksUseCase(bookRepository)
         val bookViewModel = BookViewModel(getBooksUseCase)
         val categoryViewModel = CategoryViewModel()
+        val categoryRepository = CategoryRepositoryImpl()
+        val getCategoriesUseCase = GetCategoriesUseCase(categoryRepository)
+        val categoryViewModel = CategoryViewModel(getCategoriesUseCase)
         
         setContent {
             MaktabaTheme {
